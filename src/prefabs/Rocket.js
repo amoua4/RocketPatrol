@@ -1,7 +1,7 @@
 class Rocket extends Phaser.GameObjects.Sprite {
 
     constructor(scene, x, y, texture) {
-        super(scene, x, y, texture)
+        super(scene, x, y, texture);
         scene.add.existing(this);
         this.firing = false;
     }
@@ -16,7 +16,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
     }
 //dasfadsf
     reset(){
-        this.x = game.config.width / 2;
+        //this.x = game.config.width / 2;
         this.y = 431;
         this.firing = false;
     }
